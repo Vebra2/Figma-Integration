@@ -3,5 +3,16 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
-    background-color: blue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px ;
+}
+.BrandInfo{
+    display: flex;
+}
+.navlinks{
+    display: flex;
 }
