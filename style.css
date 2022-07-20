@@ -20,22 +20,25 @@ header .BrandInfo{
     flex-direction: row;
     align-items: center;
 }
+header .BrandInfo h2{
+    color: white;
+    margin: 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
 .navlinks{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 
 }
-.navlinks li{
-    
-  text-decoration: none;
-  list-style: none;
-  padding-top: 40px;
- 
-}
-.navlinks li a{
+
+.navlinks a{
     padding: 10px ;
     color: #FF5B79;
-    
-    
+}
+.navlinks a:nth-child(5){
+    border: 1px solid #FF5B79;
+    border-radius: 50px;
 }
