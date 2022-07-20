@@ -5,14 +5,37 @@
     margin: 0;
 }
 
+body {
+    background:  linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     padding: 0 40px ;
+    height: 85px;
 }
-.BrandInfo{
+header .BrandInfo{
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .navlinks{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navlinks li{
+    
+  text-decoration: none;
+  list-style: none;
+  padding-top: 40px;
+ 
+}
+.navlinks li a{
+    padding: 10px ;
+    color: #FF5B79;
+    
+    
 }
